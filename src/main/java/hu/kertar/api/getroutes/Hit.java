@@ -201,4 +201,6 @@ public class Hit {
     private String bkk_pass;
     @JsonProperty("SeatTicketOptional")
     private String seatTicketOptional;
+    @JsonProperty("PrebuyStation")
+    private String prebuyStation;
 }

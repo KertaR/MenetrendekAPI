@@ -15,13 +15,13 @@ class ApacheRestClientTest {
 
         GetRoutesRequest getRoutesRequest = new GetRoutesRequest();
         getRoutesRequest.getParams().setDatum("2025-02-11");
-        getRoutesRequest.getParams().setHonnan("Eger");
+        getRoutesRequest.getParams().setHonnan("Szob");
         getRoutesRequest.getParams().setHonnan_ls_id(0);
-        getRoutesRequest.getParams().setHonnan_settlement_id(2049);
+        getRoutesRequest.getParams().setHonnan_settlement_id(2491);
         getRoutesRequest.getParams().setHour("1");
-        getRoutesRequest.getParams().setHova("Baja");
+        getRoutesRequest.getParams().setHova("Kerecsend");
         getRoutesRequest.getParams().setHova_ls_id(0);
-        getRoutesRequest.getParams().setHova_settlement_id(352);
+        getRoutesRequest.getParams().setHova_settlement_id(2807);
         getRoutesRequest.getParams().setMin("27");
         getRoutesRequest.getParams().setNaptipus(0);
         getRoutesRequest.getParams().setPreferencia("0");

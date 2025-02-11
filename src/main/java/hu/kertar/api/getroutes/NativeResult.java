@@ -8,13 +8,13 @@ import java.util.List;
 @Data
 public class NativeResult {
     @JsonProperty("Round")
-    public int round;
+    private int round;
     @JsonProperty("Debug")
-    public Debug debug;
+    private Debug debug;
     @JsonProperty("SearchStartTime")
-    public int searchStartTime;
+    private int searchStartTime;
     @JsonProperty("PassUsage")
-    public int passUsage;
+    private int passUsage;
     @JsonProperty("Hits")
-    public List<Hit> hits;
+    private List<Hit> hits;
 }

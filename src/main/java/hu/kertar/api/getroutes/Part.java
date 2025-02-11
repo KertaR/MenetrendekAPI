@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Part
 {
-    public int order;
-    public String purposeOfJourneyPartition;
-    public int fromStopPoint;
-    public int toStopPoint;
-    public int distanceInMeter;
-    public String fareClass;
-    public List<Object> facilities;
-    public List<Object> zones;
+    private int order;
+    private String purposeOfJourneyPartition;
+    private int fromStopPoint;
+    private int toStopPoint;
+    private int distanceInMeter;
+    private String fareClass;
+    private List<Object> facilities;
+    private List<Object> zones;
 }

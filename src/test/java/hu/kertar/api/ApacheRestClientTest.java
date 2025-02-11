@@ -13,19 +13,21 @@ class ApacheRestClientTest {
     void getRequest() {
         ApacheRestClient apacheRestClient = new ApacheRestClient("https://menetrendek.hu/menetrend/newinterface/index.php");
 
-        GetRoutesRequest request = new GetRoutesRequest();
-        request.getParams().setDatum("2025-01-27");
-        request.getParams().setHonnan_ls_id(0);
-        request.getParams().setHonnan_settlement_id(2049);
-        request.getParams().setHour("1");
-        request.getParams().setHova_ls_id(0);
-        request.getParams().setHova_settlement_id(1357);
-        request.getParams().setMin("27");
-        request.getParams().setNaptipus(0);
-        request.getParams().setPreferencia("0");
-        request.getParams().setVar("0");
+        GetRoutesRequest getRoutesRequest = new GetRoutesRequest();
+        getRoutesRequest.getParams().setDatum("2025-02-11");
+        getRoutesRequest.getParams().setHonnan("Eger");
+        getRoutesRequest.getParams().setHonnan_ls_id(0);
+        getRoutesRequest.getParams().setHonnan_settlement_id(2049);
+        getRoutesRequest.getParams().setHour("1");
+        getRoutesRequest.getParams().setHova("Baja");
+        getRoutesRequest.getParams().setHova_ls_id(0);
+        getRoutesRequest.getParams().setHova_settlement_id(352);
+        getRoutesRequest.getParams().setMin("27");
+        getRoutesRequest.getParams().setNaptipus(0);
+        getRoutesRequest.getParams().setPreferencia("0");
+        getRoutesRequest.getParams().setVar("0");
 
-        GetRoutesResponse response = apacheRestClient.postRequest("", request, GetRoutesResponse.class);
+        GetRoutesResponse response = apacheRestClient.postRequest("", getRoutesRequest, GetRoutesResponse.class);
         assertEquals("success", response.getStatus());
     }
 }

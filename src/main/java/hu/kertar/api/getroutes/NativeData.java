@@ -6,194 +6,199 @@ import lombok.Data;
 @Data
 public class NativeData {
     @JsonProperty("Count")
-    public int count;
+    private int count;
     @JsonProperty("Sequence")
-    public int sequence;
+    private int sequence;
     @JsonProperty("DepartureStation")
-    public int departureStation;
+    private int departureStation;
     @JsonProperty("DepartureTime")
-    public int departureTime;
+    private int departureTime;
     @JsonProperty("DepStationName")
-    public String depStationName;
+    private String depStationName;
     @JsonProperty("DepartureSettle")
-    public int departureSettle;
+    private int departureSettle;
     @JsonProperty("FromSettle")
-    public String fromSettle;
+    private String fromSettle;
     @JsonProperty("ArrivalSettle")
-    public int arrivalSettle;
+    private int arrivalSettle;
     @JsonProperty("ArrivalStation")
-    public int arrivalStation;
+    private int arrivalStation;
     @JsonProperty("ArrStationName")
-    public String arrStationName;
+    private String arrStationName;
     @JsonProperty("ArrivalTime")
-    public int arrivalTime;
+    private int arrivalTime;
     @JsonProperty("Distance")
-    public int distance;
+    private int distance;
     @JsonProperty("RestrictionId")
-    public int restrictionId;
+    private int restrictionId;
     @JsonProperty("RunId")
-    public int runId;
+    private int runId;
     @JsonProperty("NetworkId")
-    public int networkId;
+    private int networkId;
     @JsonProperty("WalkDistance")
-    public int walkDistance;
+    private int walkDistance;
     @JsonProperty("LrId")
-    public int lrId;
+    private int lrId;
     @JsonProperty("RdId")
-    public int rdId;
+    private int rdId;
     @JsonProperty("Domain_code")
-    public String domain_code;
+    private String domain_code;
     @JsonProperty("Number")
-    public String number;
+    private String number;
     @JsonProperty("DepartureOutside")
-    public boolean departureOutside;
+    private boolean departureOutside;
     @JsonProperty("ArrivalOutside")
-    public boolean arrivalOutside;
+    private boolean arrivalOutside;
     @JsonProperty("DepEovX")
-    public int depEovX;
+    private int depEovX;
     @JsonProperty("DepEovY")
-    public int depEovY;
+    private int depEovY;
     @JsonProperty("ArrEovX")
-    public int arrEovX;
+    private int arrEovX;
     @JsonProperty("ArrEovY")
-    public int arrEovY;
+    private int arrEovY;
     @JsonProperty("DomainCompanyName")
-    public String domainCompanyName;
+    private String domainCompanyName;
     @JsonProperty("Explanation")
-    public String explanation;
+    private String explanation;
     @JsonProperty("Prebuy")
-    public int prebuy;
+    private int prebuy;
     @JsonProperty("LocalDomainCode")
-    public String localDomainCode;
+    private String localDomainCode;
     @JsonProperty("Heke")
-    public boolean heke;
-    public ChargeInfo chargeInfo;
-    public boolean local_pass_useable;
-    public boolean bkk_pass_useable;
+    private boolean heke;
+    private ChargeInfo chargeInfo;
+    private boolean local_pass_useable;
+    private boolean bkk_pass_useable;
     @JsonProperty("GlobalPassUsage")
-    public String globalPassUsage;
+    private String globalPassUsage;
     @JsonProperty("DepartureSeqnr")
-    public int departureSeqnr;
+    private int departureSeqnr;
     @JsonProperty("ArrivalSeqnr")
-    public int arrivalSeqnr;
+    private int arrivalSeqnr;
     @JsonProperty("FareSumExtra")
-    public int fareSumExtra;
+    private int fareSumExtra;
     @JsonProperty("FareExtra")
-    public int fareExtra;
+    private int fareExtra;
     @JsonProperty("FareSeatRes")
-    public int fareSeatRes;
+    private int fareSeatRes;
     @JsonProperty("Fare")
-    public int fare;
+    private int fare;
     @JsonProperty("FareFifty")
-    public int fareFifty;
+    private int fareFifty;
     @JsonProperty("FareNinty")
-    public int fareNinty;
+    private int fareNinty;
     @JsonProperty("TicketType")
-    public String ticketType;
+    private String ticketType;
     @JsonProperty("LinkStation")
-    public int linkStation;
+    private int linkStation;
     @JsonProperty("Bube")
-    public boolean bube;
+    private boolean bube;
     @JsonProperty("PeakMemory")
-    public int peakMemory;
+    private int peakMemory;
     @JsonProperty("ToSettle")
-    public String toSettle;
+    private String toSettle;
     @JsonProperty("Hitcount")
-    public int hitcount;
+    private int hitcount;
     @JsonProperty("ChangeTime")
-    public int changeTime;
+    private int changeTime;
     @JsonProperty("ChangeMode")
-    public String changeMode;
+    private String changeMode;
     @JsonProperty("ChangeRoute")
-    public String changeRoute;
+    private String changeRoute;
     @JsonProperty("FromPs")
-    public int fromPs;
+    private int fromPs;
     @JsonProperty("ToPs")
-    public int toPs;
+    private int toPs;
     @JsonProperty("InternalId")
-    public int internalId;
+    private int internalId;
     @JsonProperty("FromBay")
-    public String fromBay;
+    private String fromBay;
     @JsonProperty("ToBay")
-    public String toBay;
+    private String toBay;
     @JsonProperty("Owner")
-    public int owner;
+    private int owner;
     @JsonProperty("FirstClassFee")
-    public int firstClassFee;
+    private int firstClassFee;
     @JsonProperty("OwnerName")
-    public String ownerName;
+    private String ownerName;
     @JsonProperty("DatabaseVersion")
-    public int databaseVersion;
+    private int databaseVersion;
     @JsonProperty("BikeCarriage")
-    public int bikeCarriage;
+    private int bikeCarriage;
     @JsonProperty("BikeForbidden")
-    public int bikeForbidden;
+    private int bikeForbidden;
     @JsonProperty("BikeRestricted")
-    public int bikeRestricted;
+    private int bikeRestricted;
     @JsonProperty("BikeSeatTicket")
-    public int bikeSeatTicket;
+    private int bikeSeatTicket;
     @JsonProperty("BkszDomainCode")
-    public String bkszDomainCode;
+    private String bkszDomainCode;
     @JsonProperty("BufeCar")
-    public int bufeCar;
+    private int bufeCar;
     @JsonProperty("Detour")
-    public int detour;
+    private int detour;
     @JsonProperty("DiningCar")
-    public int diningCar;
+    private int diningCar;
     @JsonProperty("DirectCarriage")
-    public int directCarriage;
+    private int directCarriage;
     @JsonProperty("DisabledPeople")
-    public int disabledPeople;
+    private int disabledPeople;
     @JsonProperty("FirstClass")
-    public int firstClass;
+    private int firstClass;
     @JsonProperty("HighSpeed")
-    public int highSpeed;
+    private int highSpeed;
     @JsonProperty("Internet")
-    public int internet;
+    private int internet;
     @JsonProperty("JourneyName")
-    public String journeyName;
+    private String journeyName;
     @JsonProperty("LowFloor")
-    public int lowFloor;
+    private int lowFloor;
     @JsonProperty("NoSuperCharge")
-    public int noSuperCharge;
+    private int noSuperCharge;
     @JsonProperty("OnDemand")
-    public String onDemand;
+    private String onDemand;
     @JsonProperty("Premium")
-    public int premium;
+    private int premium;
     @JsonProperty("Remark")
-    public String remark;
+    private String remark;
     @JsonProperty("RunCategory")
-    public String runCategory;
+    private String runCategory;
     @JsonProperty("RunMessage")
-    public String runMessage;
+    private String runMessage;
     @JsonProperty("RunType")
-    public String runType;
+    private String runType;
     @JsonProperty("SeatTicketCompulsory")
-    public int seatTicketCompulsory;
+    private int seatTicketCompulsory;
     @JsonProperty("Superior")
-    public int superior;
+    private int superior;
     @JsonProperty("SupplementaryTicketCompulsory")
-    public int supplementaryTicketCompulsory;
+    private int supplementaryTicketCompulsory;
     @JsonProperty("Telebus")
-    public int telebus;
+    private int telebus;
     @JsonProperty("WheelChairNoLift")
-    public int wheelChairNoLift;
+    private int wheelChairNoLift;
     @JsonProperty("WheelChairWithLift")
-    public int wheelChairWithLift;
+    private int wheelChairWithLift;
     @JsonProperty("Wifi")
-    public int wifi;
+    private int wifi;
     @JsonProperty("CountyPass")
-    public String countyPass;
+    private String countyPass;
     @JsonProperty("GlobalPass")
-    public String globalPass;
+    private String globalPass;
     @JsonProperty("LongName")
-    public String longName;
+    private String longName;
     @JsonProperty("NumberType")
-    public String numberType;
+    private String numberType;
     @JsonProperty("ShortName")
-    public String shortName;
+    private String shortName;
     @JsonProperty("TransportMode")
-    public String transportMode;
+    private String transportMode;
     @JsonProperty("News")
-    public News news;
+    private News news;
+    @JsonProperty("ChangeLs")
+    private String changeLs;
+    private String bkk_pass;
+    @JsonProperty("SeatTicketOptional")
+    private String seatTicketOptional;
 }

@@ -1,7 +1,10 @@
 package hu.kertar.api.getroutes;
 
+import lombok.Data;
+
 import java.util.List;
 
+@Data
 public class Part
 {
     private int order;

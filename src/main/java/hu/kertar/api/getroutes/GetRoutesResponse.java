@@ -7,4 +7,5 @@ public class GetRoutesResponse {
     private String status;
     private Results results;
     private NativeResult nativeResults;
+    private String errMsg;
 }

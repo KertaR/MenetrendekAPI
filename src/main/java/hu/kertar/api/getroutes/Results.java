@@ -12,5 +12,6 @@ public class Results {
     private String apache_hostname;
     private UsedParams used_params;
     private Map<String, Talalat> talalatok;
+    private String error;
 
 }

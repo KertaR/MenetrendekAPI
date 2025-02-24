@@ -2,6 +2,8 @@ package hu.kertar.api.getroutes;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import java.util.List;
 import java.util.Map;
@@ -40,5 +42,15 @@ public class Talalat {
     private KifejtesPostJson kifejtes_postjson;
     private String ossztav;
     private String talalat_kozlekedik;
+
+    public String toJson()
+    {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            return objectMapper.writeValueAsString(this);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 }
